@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "bullmq": "npm:bullmq@3.15.0"
+  },
+  "tasks": {
+    "crawler:enqueue": "deno run --allow-read --allow-env --allow-ffi --allow-net crawler/enqueue.ts",
+    "crawler:worker": "deno run --allow-read --allow-env --allow-ffi --allow-net crawler/worker.ts"
+  }
+}
